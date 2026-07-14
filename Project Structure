@@ -1,0 +1,40 @@
+AI-Based-Dropout-Prediction-System/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── model.pkl
+├── scaler.pkl
+├── student_data.csv
+│
+├── models/
+│   ├── train_model.py
+│   ├── prediction.py
+│   └── counseling.py
+│
+├── database/
+│   ├── database.py
+│   └── students.db
+│
+├── pages/
+│   ├── Login.py
+│   ├── Register.py
+│   ├── Dashboard.py
+│   ├── Prediction.py
+│   ├── Counseling.py
+│   └── Reports.py
+│
+├── utils/
+│   ├── auth.py
+│   ├── helper.py
+│   └── charts.py
+│
+├── assets/
+│   ├── logo.png
+│   └── background.jpg
+│
+└── screenshots/
+    ├── login.png
+    ├── dashboard.png
+    ├── prediction.png
+    └── report.png
